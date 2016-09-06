@@ -4,7 +4,8 @@
       .html5Mode({
         enabled: true,
         requreBase: false
-      });
+      
+    });
   
     $stateProvider
       .state('landing', {
