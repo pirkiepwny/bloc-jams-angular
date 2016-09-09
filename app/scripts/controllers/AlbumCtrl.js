@@ -1,14 +1,21 @@
 (function() {
   function AlbumCtrl() {
-    this.albumData = [];
-    for (var i=0; i < 5; i++) {
-      this.albumData.push(angular.copy(albumPicasso));
-    }
+    this.albumData = angular.copy(albumPicasso);
+    console.log(this.albumData);
   }
   
-
- 
- angular
-  .module('blocJams')
-  .controller('AlbumCtrl', AlbumCtrl);
+  angular
+    .module('blocJams')
+    .controller('AlbumCtrl', AlbumCtrl);
 })();
+
+
+
+
+
+
+
+
+
+
+
